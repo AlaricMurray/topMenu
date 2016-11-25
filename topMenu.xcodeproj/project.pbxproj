@@ -15,6 +15,12 @@
 		3E59EC521DADC3B9009D1E06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E59EC501DADC3B9009D1E06 /* LaunchScreen.storyboard */; };
 		3E59EC5D1DADC3BA009D1E06 /* topMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E59EC5C1DADC3BA009D1E06 /* topMenuTests.m */; };
 		3E59EC681DADC3BA009D1E06 /* topMenuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E59EC671DADC3BA009D1E06 /* topMenuUITests.m */; };
+		3E59EC7A1DADC4E6009D1E06 /* SGTopScrollMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E59EC771DADC4E6009D1E06 /* SGTopScrollMenu.m */; };
+		3E59EC7B1DADC4E6009D1E06 /* UIView+SGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E59EC791DADC4E6009D1E06 /* UIView+SGExtension.m */; };
+		3E59EC7E1DADC549009D1E06 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E59EC7D1DADC549009D1E06 /* FirstViewController.m */; };
+		3E59EC811DADC56B009D1E06 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E59EC801DADC56B009D1E06 /* SecondViewController.m */; };
+		3E59EC841DADC588009D1E06 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E59EC831DADC588009D1E06 /* ThirdViewController.m */; };
+		3E59EC871DADC594009D1E06 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E59EC861DADC594009D1E06 /* FourthViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,18 @@
 		3E59EC631DADC3BA009D1E06 /* topMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = topMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E59EC671DADC3BA009D1E06 /* topMenuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = topMenuUITests.m; sourceTree = "<group>"; };
 		3E59EC691DADC3BA009D1E06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E59EC761DADC4E6009D1E06 /* SGTopScrollMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGTopScrollMenu.h; sourceTree = "<group>"; };
+		3E59EC771DADC4E6009D1E06 /* SGTopScrollMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGTopScrollMenu.m; sourceTree = "<group>"; };
+		3E59EC781DADC4E6009D1E06 /* UIView+SGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SGExtension.h"; sourceTree = "<group>"; };
+		3E59EC791DADC4E6009D1E06 /* UIView+SGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SGExtension.m"; sourceTree = "<group>"; };
+		3E59EC7C1DADC549009D1E06 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		3E59EC7D1DADC549009D1E06 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		3E59EC7F1DADC56B009D1E06 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		3E59EC801DADC56B009D1E06 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		3E59EC821DADC588009D1E06 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		3E59EC831DADC588009D1E06 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		3E59EC851DADC594009D1E06 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		3E59EC861DADC594009D1E06 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +119,19 @@
 		3E59EC411DADC3B9009D1E06 /* topMenu */ = {
 			isa = PBXGroup;
 			children = (
+				3E59EC751DADC4E6009D1E06 /* SGTopScrollMenu */,
 				3E59EC451DADC3B9009D1E06 /* AppDelegate.h */,
 				3E59EC461DADC3B9009D1E06 /* AppDelegate.m */,
 				3E59EC481DADC3B9009D1E06 /* ViewController.h */,
 				3E59EC491DADC3B9009D1E06 /* ViewController.m */,
+				3E59EC7C1DADC549009D1E06 /* FirstViewController.h */,
+				3E59EC7D1DADC549009D1E06 /* FirstViewController.m */,
+				3E59EC7F1DADC56B009D1E06 /* SecondViewController.h */,
+				3E59EC801DADC56B009D1E06 /* SecondViewController.m */,
+				3E59EC821DADC588009D1E06 /* ThirdViewController.h */,
+				3E59EC831DADC588009D1E06 /* ThirdViewController.m */,
+				3E59EC851DADC594009D1E06 /* FourthViewController.h */,
+				3E59EC861DADC594009D1E06 /* FourthViewController.m */,
 				3E59EC4B1DADC3B9009D1E06 /* Main.storyboard */,
 				3E59EC4E1DADC3B9009D1E06 /* Assets.xcassets */,
 				3E59EC501DADC3B9009D1E06 /* LaunchScreen.storyboard */,
@@ -138,6 +165,17 @@
 				3E59EC691DADC3BA009D1E06 /* Info.plist */,
 			);
 			path = topMenuUITests;
+			sourceTree = "<group>";
+		};
+		3E59EC751DADC4E6009D1E06 /* SGTopScrollMenu */ = {
+			isa = PBXGroup;
+			children = (
+				3E59EC761DADC4E6009D1E06 /* SGTopScrollMenu.h */,
+				3E59EC771DADC4E6009D1E06 /* SGTopScrollMenu.m */,
+				3E59EC781DADC4E6009D1E06 /* UIView+SGExtension.h */,
+				3E59EC791DADC4E6009D1E06 /* UIView+SGExtension.m */,
+			);
+			path = SGTopScrollMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,8 +309,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E59EC4A1DADC3B9009D1E06 /* ViewController.m in Sources */,
+				3E59EC7E1DADC549009D1E06 /* FirstViewController.m in Sources */,
+				3E59EC841DADC588009D1E06 /* ThirdViewController.m in Sources */,
+				3E59EC7A1DADC4E6009D1E06 /* SGTopScrollMenu.m in Sources */,
+				3E59EC811DADC56B009D1E06 /* SecondViewController.m in Sources */,
 				3E59EC471DADC3B9009D1E06 /* AppDelegate.m in Sources */,
+				3E59EC871DADC594009D1E06 /* FourthViewController.m in Sources */,
 				3E59EC441DADC3B9009D1E06 /* main.m in Sources */,
+				3E59EC7B1DADC4E6009D1E06 /* UIView+SGExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
